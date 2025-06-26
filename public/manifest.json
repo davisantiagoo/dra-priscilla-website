@@ -1,0 +1,26 @@
+{
+  "name": "Dra. Priscilla Almeida - Medicina do Esporte",
+  "short_name": "Dra. Priscilla",
+  "description": "Medicina do Esporte, Anestesiologia e abordagem integrativa para atletas e pessoas ativas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6B35",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["health", "medical", "sports"],
+  "icons": [
+    {
+      "src": "/Logos/Laranja Sem fundo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
