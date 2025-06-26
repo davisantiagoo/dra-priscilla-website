@@ -195,9 +195,8 @@ const Contato = () => {
                 <div>
                   <h4 className="font-semibold text-navy-blue mb-2">Endereço:</h4>
                   <p className="text-navy-blue/70 leading-relaxed">
-                    Rua Exemplo, 123<br />
-                    Bairro - São Paulo, SP<br />
-                    CEP: 00000-000
+                    Alameda Grajaú, 98 - 18º andar<br />
+                    Alphaville / Barueri - SP
                   </p>
                 </div>
                 

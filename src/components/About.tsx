@@ -1,6 +1,6 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { GraduationCap, Award, Users, Target } from 'lucide-react';
+import { GraduationCap, Award, Users, Target, Stethoscope, Brain } from 'lucide-react';
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -31,31 +31,31 @@ const About = () => {
   const specialties = [
     {
       icon: Target,
-      title: "Medicina Integrativa",
-      description: "Abordagem holística combinando medicina tradicional e terapias complementares"
+      title: "Medicina do Esporte",
+      description: "Especialização focada em performance, hipertrofia, emagrecimento e prevenção de lesões"
+    },
+    {
+      icon: Stethoscope,
+      title: "Anestesiologia", 
+      description: "Mais de 10 anos de experiência em controle da dor e manejo de ansiedade"
+    },
+    {
+      icon: Brain,
+      title: "Psicanálise",
+      description: "Compreensão profunda dos aspectos psicológicos que influenciam a saúde integral"
     },
     {
       icon: Award,
-      title: "Medicina Preventiva", 
-      description: "Foco na prevenção e promoção de hábitos saudáveis para longevidade"
-    },
-    {
-      icon: Users,
-      title: "Medicina Personalizada",
-      description: "Tratamentos individualizados baseados no perfil único de cada paciente"
-    },
-    {
-      icon: GraduationCap,
-      title: "Formação Continuada",
-      description: "Atualização constante em técnicas inovadoras e evidências científicas"
+      title: "MBA em Gestão de Saúde",
+      description: "Visão corporativa da medicina com foco em efetividade e sustentabilidade"
     }
   ];
 
   const achievements = [
-    { number: "15+", label: "Anos de Experiência" },
+    { number: "10+", label: "Anos em Anestesiologia" },
     { number: "2000+", label: "Pacientes Atendidos" },
     { number: "98%", label: "Satisfação" },
-    { number: "5.0", label: "Avaliação" },
+    { number: "UNIFESP", label: "Formação" },
   ];
 
   return (
@@ -96,7 +96,7 @@ const About = () => {
             </h2>
             
             <p className="text-xl text-navy-blue/70 max-w-3xl mx-auto leading-relaxed">
-              Sua Parceira na Jornada para a Excelência em Saúde e Longevidade
+              Médica do Esporte e Qualidade de Vida
             </p>
           </motion.div>
 
@@ -106,39 +106,47 @@ const About = () => {
             {/* Text Content */}
             <motion.div variants={fadeInUp} custom={1} className="space-y-6">
               
-              {/* Jornada Profissional */}
+              {/* Formação */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-orange-flame/10">
-                <h3 className="text-xl font-bold text-navy-blue mb-3">
-                  Jornada Profissional
-                </h3>
+                <div className="flex items-center gap-3 mb-3">
+                  <GraduationCap className="w-6 h-6 text-orange-flame" />
+                  <h3 className="text-xl font-bold text-navy-blue">
+                    Formação Médica
+                  </h3>
+                </div>
+                <p className="text-navy-blue/70 leading-relaxed mb-3">
+                  <strong>Graduada em Medicina</strong> pela Escola Paulista de Medicina (Universidade Federal de São Paulo - UNIFESP)
+                </p>
                 <p className="text-navy-blue/70 leading-relaxed">
-                  Formada em Medicina pela renomada universidade, Dra. Priscilla iniciou sua 
-                  carreira na Anestesiologia, onde desenvolveu expertise em controle da dor e 
-                  manejo de ansiedade.
+                  <strong>Especialização em Anestesiologia</strong> - Mais de 10 anos desenvolvendo expertise em controle da dor e manejo de ansiedade.
                 </p>
               </div>
 
-              {/* Descoberta da Medicina do Esporte */}
+              {/* Pós-Graduações */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-orange-flame/10">
-                <h3 className="text-xl font-bold text-navy-blue mb-3">
-                  Descoberta da Medicina do Esporte
-                </h3>
-                <p className="text-navy-blue/70 leading-relaxed">
-                  A paixão pelo movimento e pela otimização da performance a levou à 
-                  especialização em Medicina do Esporte. Aqui, descobriu como o corpo e a mente 
-                  trabalham em sinergia.
-                </p>
+                <div className="flex items-center gap-3 mb-3">
+                  <Award className="w-6 h-6 text-orange-flame" />
+                  <h3 className="text-xl font-bold text-navy-blue">
+                    Especializações
+                  </h3>
+                </div>
+                <ul className="text-navy-blue/70 leading-relaxed space-y-2">
+                  <li><strong>• Pós-Graduação em Medicina do Esporte</strong> - Estácio</li>
+                  <li><strong>• Especialização em Psicanálise</strong></li>
+                  <li><strong>• MBA de Gestão em Saúde</strong> - FGV</li>
+                </ul>
               </div>
 
-              {/* Dimensão Psicanalítica */}
+              {/* Filosofia */}
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-orange-flame/10">
-                <h3 className="text-xl font-bold text-navy-blue mb-3">
-                  Dimensão Psicanalítica
-                </h3>
-                <p className="text-navy-blue/70 leading-relaxed">
-                  Reconhecendo que os aspectos psicológicos são fundamentais para a saúde 
-                  integral, aprofundou-se na Psicanálise, compreendendo como padrões 
-                  inconscientes influenciam comportamentos.
+                <div className="flex items-center gap-3 mb-3">
+                  <Target className="w-6 h-6 text-orange-flame" />
+                  <h3 className="text-xl font-bold text-navy-blue">
+                    Minha Filosofia
+                  </h3>
+                </div>
+                <p className="text-navy-blue/70 leading-relaxed italic">
+                  "Escolhi a medicina por unir proatividade e foco de quem é movido por desafios e ao mesmo tempo sensibilidade e empatia de quem cuida do ser humano."
                 </p>
               </div>
 
@@ -191,8 +199,8 @@ const About = () => {
                     className="relative aspect-[4/5] max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl"
                   >
                     <img
-                      src="/Imagens Dra/JeanPauloFotografia (107 de 118) Grande.jpeg"
-                      alt="Dra. Priscilla Almeida - Medicina Integrativa"
+                      src="/Imagens Dra/JeanPauloFotografia (75 de 118) Grande.jpeg"
+                      alt="Dra. Priscilla Almeida - Medicina do Esporte"
                       className="w-full h-full object-cover object-center"
                       style={{
                         objectPosition: '50% 20%',
@@ -200,80 +208,128 @@ const About = () => {
                       }}
                     />
                     
-                    {/* Elegant overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-blue/20 via-transparent to-orange-flame/5" />
+                    {/* Overlay gradient */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-blue/20 via-transparent to-transparent" />
                   </motion.div>
-
-                  {/* Floating info card */}
+                  
+                  {/* Floating decorative elements */}
                   <motion.div
-                    initial={{ opacity: 0, y: 30, scale: 0.9 }}
-                    animate={isInView ? { opacity: 1, y: 0, scale: 1 } : {}}
-                    transition={{ delay: 1.2, type: "spring", stiffness: 200 }}
-                    className="absolute -bottom-8 -right-4 bg-white/90 backdrop-blur-md rounded-2xl p-6 shadow-xl border border-orange-flame/20 min-w-[240px]"
-                  >
-                    <div className="text-center space-y-2">
-                      <h4 className="font-bold text-navy-blue">Formação USP</h4>
-                      <p className="text-sm text-navy-blue/60">
-                        Medicina Integrativa & Longevidade
-                      </p>
-                      <div className="pt-2 border-t border-navy-blue/10">
-                        <span className="text-xs text-orange-flame font-medium">CRM 123456-SP</span>
-                      </div>
-                    </div>
-                  </motion.div>
+                    animate={{ 
+                      y: [0, -10, 0],
+                      rotate: [0, 5, -5, 0]
+                    }}
+                    transition={{ 
+                      duration: 6,
+                      repeat: Infinity,
+                      ease: "easeInOut"
+                    }}
+                    className="absolute -top-4 -right-4 w-24 h-24 bg-orange-flame/20 rounded-full blur-xl"
+                  />
+                  
+                  <motion.div
+                    animate={{ 
+                      y: [0, 10, 0],
+                      rotate: [0, -3, 3, 0]
+                    }}
+                    transition={{ 
+                      duration: 8,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                      delay: 1
+                    }}
+                    className="absolute -bottom-6 -left-6 w-32 h-32 bg-navy-blue/15 rounded-full blur-xl"
+                  />
                 </div>
-
-                {/* Decorative elements */}
-                <motion.div
-                  animate={{ y: [0, -15, 0], rotate: [0, 5, 0] }}
-                  transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                  className="absolute top-10 -left-6 w-20 h-20 bg-gradient-to-br from-orange-flame/20 to-happy-yellow/15 rounded-full blur-xl"
-                />
-                
-                <motion.div
-                  animate={{ y: [0, 10, 0], rotate: [0, -3, 0] }}
-                  transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                  className="absolute bottom-20 -right-8 w-16 h-16 bg-gradient-to-br from-navy-blue/20 to-orange-flame/15 rounded-full blur-lg"
-                />
               </div>
             </motion.div>
           </div>
 
-          {/* Specialties Grid */}
-          <motion.div variants={fadeInUp} custom={3}>
-            <div className="text-center mb-16">
-              <h3 className="text-3xl md:text-4xl font-bold text-navy-blue mb-4">
-                Áreas de Especialização
-              </h3>
-              <p className="text-lg text-navy-blue/70 max-w-2xl mx-auto">
-                Uma abordagem completa que integra diferentes especialidades médicas 
-                em benefício da sua saúde integral
-              </p>
-            </div>
+          {/* Detailed Journey */}
+          <motion.div
+            variants={fadeInUp}
+            custom={3}
+            className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 lg:p-12 shadow-xl border border-orange-flame/10"
+          >
+            <h3 className="text-3xl font-bold text-navy-blue mb-8 text-center">
+              Minha Jornada Profissional
+            </h3>
+            
+            <div className="space-y-8">
+              
+              {/* Anestesiologia */}
+              <div className="flex gap-6 items-start">
+                <div className="w-12 h-12 bg-orange-flame/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <Stethoscope className="w-6 h-6 text-orange-flame" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-navy-blue mb-3">Anestesiologia</h4>
+                  <p className="text-navy-blue/70 leading-relaxed">
+                    Escolhi a Anestesiologia como minha primeira especialização, pela alta capacidade de antecipar e interferir nas reações do organismo diante de estímulos potencialmente danosos vindo do ambiente, garantindo a manutenção do equilíbrio e bem estar dos meus pacientes. Há mais de 10 anos nessa especialização desenvolvi ainda mais sua percepção sobre as respostas do corpo diante de determinados estímulos.
+                  </p>
+                </div>
+              </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {specialties.map((specialty, index) => (
+              {/* MBA */}
+              <div className="flex gap-6 items-start">
+                <div className="w-12 h-12 bg-navy-blue/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <Award className="w-6 h-6 text-navy-blue" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-navy-blue mb-3">MBA em Gestão de Saúde - FGV</h4>
+                  <p className="text-navy-blue/70 leading-relaxed">
+                    No meu caminho, passei pelo MBA de gestão em Saúde da FGV, para incluir em sua atuação a visão corporativa da medicina através do planejamento e organização visando maior efetividade e sustentabilidade de suas ações a curto e longo prazos.
+                  </p>
+                </div>
+              </div>
+
+              {/* Medicina do Esporte */}
+              <div className="flex gap-6 items-start">
+                <div className="w-12 h-12 bg-happy-yellow/10 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <Target className="w-6 h-6 text-happy-yellow" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold text-navy-blue mb-3">Medicina do Esporte</h4>
+                  <p className="text-navy-blue/70 leading-relaxed">
+                    Apaixonada por esportes desde a infância, a atividade física permeou todos os momentos da minha vida. Os estudos para meu aproveitamento pessoal foram expandindo e minha paixão pelo assunto só foi aumentando, decidi que não usaria esse conhecimento só para mim mesma. Fiz Pós-Graduação em Medicina do Esporte e passei a ajudar atletas profissionais, amadores e iniciantes a aproveitarem o seu melhor e alcançarem melhores resultados, seja em hipertrofia, emagrecimento e performance em esportes de forma geral.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </motion.div>
+
+          {/* Specialties Grid */}
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            animate={isInView ? "visible" : "hidden"}
+            className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16"
+          >
+            {specialties.map((specialty, index) => (
+              <motion.div
+                key={specialty.title}
+                variants={fadeInUp}
+                custom={index + 4}
+                className="group text-center"
+              >
                 <motion.div
-                  key={specialty.title}
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ delay: 0.7 + index * 0.1 }}
-                  className="group text-center p-8 bg-white/80 backdrop-blur-sm rounded-3xl border border-orange-flame/10 hover:border-orange-flame/30 hover:shadow-lg transition-all duration-300"
+                  whileHover={{ y: -5 }}
+                  className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-orange-flame/10 hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="w-16 h-16 bg-gradient-to-br from-orange-flame/10 to-navy-blue/10 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <specialty.icon className="w-8 h-8 text-orange-flame" />
+                  <div className="w-20 h-20 bg-orange-flame/10 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <specialty.icon className="w-10 h-10 text-orange-flame" />
                   </div>
                   
-                  <h4 className="text-xl font-bold text-navy-blue mb-3">
+                  <h3 className="text-xl font-bold text-navy-blue mb-4">
                     {specialty.title}
-                  </h4>
+                  </h3>
                   
                   <p className="text-navy-blue/60 leading-relaxed">
                     {specialty.description}
                   </p>
                 </motion.div>
-              ))}
-            </div>
+              </motion.div>
+            ))}
           </motion.div>
         </motion.div>
       </div>
