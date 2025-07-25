@@ -14,12 +14,12 @@ const Abordagem = () => {
       icon: Brain,
       titulo: "Psicanálise Aplicada à Saúde",
       descricao: "Compreensão profunda dos aspectos psicológicos que influenciam a saúde física, comportamentos alimentares e motivação.",
-      beneficios: ["Análise comportamental", "Terapia integrativa", "Mudança de hábitos"],
+      beneficios: ["Análise comportamental", "Terapia personalizada", "Mudança de hábitos"],
       color: "from-navy-blue/20 to-navy-blue/5"
     },
     {
       icon: Heart,
-      titulo: "Experiência em Anestesiologia",
+      titulo: "ESPECIALISTA em Anestesiologia",
       descricao: "Conhecimento profundo sobre controle da dor, manejo de ansiedade e procedimentos seguros para bem-estar integral.",
       beneficios: ["Controle da dor", "Manejo de ansiedade", "Procedimentos seguros"],
       color: "from-orange-flame/15 to-navy-blue/5"
@@ -73,19 +73,17 @@ const Abordagem = () => {
               className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-flame/10 to-navy-blue/10 rounded-full mb-6"
             >
               <Star className="w-4 h-4 text-orange-flame" />
-              <span className="text-sm font-medium text-navy-blue tracking-wide">Abordagem Integrativa</span>
+              <span className="text-sm font-medium text-navy-blue tracking-wide">Abordagem Personalizada</span>
             </motion.div>
             
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy-blue mb-8 tracking-tight leading-tight">
-              <span className="block">Medicina que Integra</span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-flame via-navy-blue to-orange-flame">
-                Corpo, Mente e Performance
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy-blue mb-6 tracking-tight">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-navy-blue via-orange-flame to-navy-blue">
+                Medicina Focada em Performance: Corpo, Mente e Resultados
               </span>
             </h2>
             
             <p className="text-xl text-navy-blue/70 max-w-4xl mx-auto leading-relaxed">
-              Uma abordagem única que combina diferentes especialidades médicas para 
-              oferecer o cuidado mais completo e personalizado
+              Abordagem personalizada, baseada em evidências, no cuidado das alterações fisiológicas e metabólicas ao longo da vida, para sustentação de uma longevidade ativa e saudável.
             </p>
           </motion.div>
 

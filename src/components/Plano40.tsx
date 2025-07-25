@@ -59,9 +59,13 @@ const Plano40 = () => {
             <span className="bg-gradient-to-r from-orange-flame to-happy-yellow bg-clip-text text-transparent">Personalizada</span>
           </h2>
           <p className="text-xl text-navy-blue/80 max-w-3xl mx-auto leading-relaxed">
-            Uma abordagem integrativa que combina medicina preventiva, otimização hormonal e 
-            medicina do esporte para mulheres que buscam excelência em saúde e performance.
+            Uma abordagem personalizada que combina medicina preventiva, otimização hormonal e medicina do esporte focada em MULHERES QUE BUSCAM SAÚDE E PERFORMANCE APÓS OS 40 ANOS.
           </p>
+          <div className="mt-6 p-4 bg-gradient-to-r from-orange-flame/10 to-happy-yellow/10 rounded-2xl border border-orange-flame/20">
+            <p className="text-lg font-semibold text-navy-blue">
+              Foco especial em <span className="text-orange-flame">PERFORMANCE PROFISSIONAL</span> e qualidade de vida para mulheres modernas
+            </p>
+          </div>
         </motion.div>
 
         {/* Benefícios Grid */}

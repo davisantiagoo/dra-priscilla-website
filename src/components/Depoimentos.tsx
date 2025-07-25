@@ -11,7 +11,7 @@ const Depoimentos = () => {
       name: "Maria Silva",
       age: "45 anos",
       condition: "Fadiga Crônica",
-      text: "Após anos sofrendo com fadiga constante, finalmente encontrei na Dra. Priscilla uma médica que olhou para mim como um todo. Sua abordagem integrativa mudou completamente minha qualidade de vida.",
+      text: "Após anos sofrendo com fadiga constante, finalmente encontrei na Dra. Priscilla uma médica que olhou para mim como um todo. Sua abordagem personalizada mudou completamente minha qualidade de vida.",
       rating: 5,
       improvement: "90% de melhora na energia"
     },
@@ -27,7 +27,7 @@ const Depoimentos = () => {
       name: "Ana Costa",
       age: "38 anos",
       condition: "Ansiedade e Insônia", 
-      text: "O tratamento integrativo da Dra. Priscilla transformou minha relação com a ansiedade. Ela me ensinou técnicas que uso até hoje e finalmente consigo dormir bem.",
+      text: "O tratamento personalizado da Dra. Priscilla transformou minha relação com a ansiedade. Ela me ensinou técnicas que uso até hoje e finalmente consigo dormir bem.",
       rating: 5,
       improvement: "8h de sono reparador"
     }
@@ -100,7 +100,7 @@ const Depoimentos = () => {
             </h2>
             
             <p className="text-xl text-navy-blue/70 max-w-3xl mx-auto leading-relaxed">
-              Conheça as transformações reais de pessoas que escolheram uma abordagem integrativa para sua saúde
+              Conheça as transformações reais de pessoas que escolheram uma abordagem personalizada para sua saúde
             </p>
           </motion.div>
 
@@ -201,7 +201,7 @@ const Depoimentos = () => {
               </h3>
               
               <p className="text-lg text-navy-blue/70 mb-8 max-w-2xl mx-auto">
-                Junte-se a centenas de pessoas que já transformaram suas vidas com uma abordagem verdadeiramente integrativa
+                Junte-se a centenas de pessoas que já transformaram suas vidas com uma abordagem verdadeiramente personalizada
               </p>
 
               <motion.a

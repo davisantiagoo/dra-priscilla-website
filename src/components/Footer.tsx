@@ -81,8 +81,7 @@ const Footer = () => {
                 </h3>
                 
                 <p className="text-white/80 leading-relaxed mb-6 max-w-md">
-                  Medicina Integrativa e Longevidade. Transformando vidas através de uma 
-                  abordagem personalizada que combina ciência e humanidade.
+                  Performance e Longevidade. Abordagem personalizada que combina ciência e humanidade.
                 </p>
 
                 {/* Social Links */}
@@ -140,10 +139,10 @@ const Footer = () => {
                 
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 text-orange-flame mt-1 flex-shrink-0" />
+                    <MessageSquare className="w-5 h-5 text-orange-flame mt-1 flex-shrink-0" />
                     <div className="text-white/70">
-                      <p>São Paulo - SP</p>
-                      <p className="text-sm">Consultório particular</p>
+                      <p>WhatsApp: (11) 96314-5317</p>
+                      <p className="text-sm">Atendimento online</p>
                     </div>
                   </div>
                   
@@ -188,7 +187,9 @@ const Footer = () => {
             <div className="flex items-center gap-6 text-sm text-white/60">
               <span>CRM: 123456-SP</span>
               <span>•</span>
-              <span>Medicina Integrativa</span>
+              <span><a href="#" target="_blank" rel="noopener noreferrer">Currículo Lattes</a></span>
+              <span>•</span>
+              <span>Certificações: Título de Especialista em Medicina do Esporte, Pós-graduação em Psicanálise, MBA em Gestão de Saúde</span>
             </div>
           </div>
         </motion.div>

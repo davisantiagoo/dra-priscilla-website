@@ -84,7 +84,7 @@ const Contato = () => {
             </h2>
             
             <p className="text-xl text-navy-blue/70 max-w-3xl mx-auto leading-relaxed">
-              Estou aqui para te ajudar a conquista sua melhor versão através de uma abordagem verdadeiramente integrativa
+              Estou aqui para te ajudar a conquistar sua melhor versão através de uma abordagem focada em performance e resultados
             </p>
           </motion.div>
 
@@ -153,10 +153,10 @@ const Contato = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-navy-blue">
-                    Horários de Atendimento
+                    Horários de Atendimento ao Cliente
                   </h3>
                   <p className="text-navy-blue/60">
-                    Agende sua consulta
+                    Para agendamento de consultas online
                   </p>
                 </div>
               </div>
@@ -173,37 +173,54 @@ const Contato = () => {
                   </div>
                 ))}
               </div>
+              
+              <div className="mt-6 p-4 bg-orange-flame/10 rounded-2xl border border-orange-flame/20">
+                <p className="text-sm font-medium text-navy-blue text-center">
+                  Atendimento exclusivamente online – agende sua consulta com total comodidade
+                </p>
+              </div>
             </div>
 
-            {/* Location */}
+            {/* Online Service */}
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-orange-flame/10">
               <div className="flex items-center gap-4 mb-8">
                 <div className="w-16 h-16 bg-navy-blue/10 rounded-2xl flex items-center justify-center">
-                  <MapPin className="w-8 h-8 text-navy-blue" />
+                  <MessageSquare className="w-8 h-8 text-navy-blue" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-navy-blue">
-                    Localização
+                    Atendimento Online
                   </h3>
                   <p className="text-navy-blue/60">
-                    Consultório médico
+                    Consultas 100% Online
                   </p>
                 </div>
               </div>
               
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold text-navy-blue mb-2">Endereço:</h4>
-                  <p className="text-navy-blue/70 leading-relaxed">
-                    Alameda Grajaú, 98 - 18º andar<br />
-                    Alphaville / Barueri - SP
-                  </p>
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-flame rounded-full"></div>
+                  <span className="text-navy-blue/70">Conforto e Comodidade</span>
                 </div>
-                
-                <div className="pt-4 border-t border-navy-blue/10">
-                  <p className="text-sm text-navy-blue/60">
-                    📍 Próximo ao metrô e com estacionamento disponível
-                  </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-flame rounded-full"></div>
+                  <span className="text-navy-blue/70">Total privacidade</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-flame rounded-full"></div>
+                  <span className="text-navy-blue/70">Otimização de tempo</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-flame rounded-full"></div>
+                  <span className="text-navy-blue/70">Sem necessidade de deslocamento</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-flame rounded-full"></div>
+                  <span className="text-navy-blue/70">Horários flexíveis</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-orange-flame rounded-full"></div>
+                  <span className="text-navy-blue/70">Atendimento personalizado</span>
                 </div>
               </div>
             </div>
@@ -245,7 +262,7 @@ const Contato = () => {
               </motion.a>
               
               <p className="text-sm text-navy-blue/60 mt-4">
-                Atendimento humanizado • Abordagem integrativa • Resultados duradouros
+                Atendimento humanizado • Abordagem personalizada • Resultados duradouros
               </p>
             </div>
           </motion.div>

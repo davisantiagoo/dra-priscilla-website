@@ -49,11 +49,11 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-flame/10 backdrop-blur-sm rounded-full mb-8 border border-orange-flame/20"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-orange-flame/15 to-orange-flame/10 backdrop-blur-sm rounded-full mb-8 border border-orange-flame/30 shadow-lg"
             >
               <div className="w-2 h-2 bg-orange-flame rounded-full animate-pulse" />
-              <span className="text-sm font-medium text-navy-blue tracking-wide">
-                Medicina Integrativa & Longevidade
+              <span className="text-sm font-semibold text-navy-blue tracking-wide">
+                Performance Esportiva e Profissional
               </span>
             </motion.div>
 
@@ -64,9 +64,9 @@ const Hero = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-navy-blue mb-6 leading-tight"
             >
-              Transforme Sua 
+              Transforme Sua Vida:
               <span className="block bg-clip-text text-transparent bg-gradient-to-r from-orange-flame to-orange-flame/70">
-                Saúde e Vida
+                Medicina no Esporte e Saúde da Mulher
               </span>
             </motion.h1>
 
@@ -77,7 +77,17 @@ const Hero = () => {
               transition={{ delay: 0.7, duration: 0.8 }}
               className="text-xl lg:text-2xl text-navy-blue/70 mb-10 leading-relaxed max-w-lg mx-auto lg:mx-0"
             >
-              Descubra o poder da medicina integrativa para alcançar sua melhor versão através de uma abordagem personalizada e inovadora.
+              Performance na Longevidade
+            </motion.p>
+
+            {/* Texto principal */}
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8, duration: 0.8 }}
+              className="text-lg text-navy-blue/80 mb-8 max-w-xl mx-auto lg:mx-0"
+            >
+              Medicina com foco em saúde da Mulher e Performance Esportiva em todas as fases da vida, abordagem personalizada.
             </motion.p>
 
             {/* Benefits */}
@@ -88,10 +98,9 @@ const Hero = () => {
               className="grid sm:grid-cols-2 gap-4 mb-10"
             >
               {[
-                "Abordagem personalizada",
                 "Medicina baseada em evidências",
-                "Cuidado integral",
-                "Resultados duradouros"
+                "Abordagem personalizada",
+                "Focada em Resultados"
               ].map((benefit, index) => (
                 <motion.div
                   key={benefit}
@@ -185,7 +194,7 @@ const Hero = () => {
               >
                 <img
                   src="/Imagens Dra/JeanPauloFotografia (113 de 118) Grande.jpeg"
-                  alt="Dra. Priscilla Almeida - Medicina Integrativa"
+                  alt="Dra. Priscilla Almeida - Performance e Saúde da Mulher"
                   className="w-full h-full object-cover object-center"
                   style={{
                     objectPosition: '50% 20%',
@@ -219,8 +228,8 @@ const Hero = () => {
               >
                 <div className="text-center">
                   <div className="text-sm text-navy-blue/60 mb-1">Especialista</div>
-                  <div className="text-lg font-bold text-navy-blue">Medicina</div>
-                  <div className="text-lg font-bold text-navy-blue">Integrativa</div>
+                  <div className="text-lg font-bold text-navy-blue">Performance</div>
+                  <div className="text-lg font-bold text-navy-blue">e Longevidade</div>
                 </div>
               </motion.div>
             </div>

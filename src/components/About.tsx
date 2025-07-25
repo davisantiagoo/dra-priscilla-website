@@ -96,7 +96,7 @@ const About = () => {
             </h2>
             
             <p className="text-xl text-navy-blue/70 max-w-3xl mx-auto leading-relaxed">
-              Médica do Esporte e Qualidade de Vida
+              Médica do Esporte, Saúde da Mulher e Performance
             </p>
           </motion.div>
 
@@ -200,7 +200,7 @@ const About = () => {
                   >
                     <img
                       src="/Imagens Dra/JeanPauloFotografia (75 de 118) Grande.jpeg"
-                      alt="Dra. Priscilla Almeida - Medicina do Esporte"
+                      alt="Dra. Priscilla Almeida - Performance e Saúde da Mulher"
                       className="w-full h-full object-cover object-center"
                       style={{
                         objectPosition: '50% 20%',

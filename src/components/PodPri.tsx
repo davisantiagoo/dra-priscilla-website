@@ -67,7 +67,7 @@ const PodPri = () => {
             </h2>
             
             <p className="text-xl text-navy-blue/70 max-w-3xl mx-auto leading-relaxed">
-              Conteúdo exclusivo sobre medicina integrativa, longevidade e bem-estar. 
+              Conteúdo exclusivo sobre performance, longevidade e bem-estar. 
               Transforme sua relação com a saúde através do conhecimento.
             </p>
           </motion.div>
@@ -128,7 +128,7 @@ const PodPri = () => {
                 
                 <div className="space-y-6 text-navy-blue/70 leading-relaxed">
                   <p className="text-lg">
-                    No PodPri, compartilho insights valiosos sobre medicina integrativa, 
+                    No PodPri, compartilho insights valiosos sobre performance e saúde, 
                     hábitos de longevidade e estratégias práticas para otimizar sua saúde.
                   </p>
                   
@@ -149,7 +149,7 @@ const PodPri = () => {
                   {[
                     "Longevidade Saudável",
                     "Medicina Preventiva", 
-                    "Nutrição Integrativa",
+                    "Nutrição Funcional",
                     "Saúde Mental",
                     "Hormônios & Bem-estar",
                     "Medicina do Esporte"

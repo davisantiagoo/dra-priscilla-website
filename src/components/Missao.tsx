@@ -55,9 +55,7 @@ const Missao = () => {
                 <Target className="w-8 h-8 text-white" />
               </div>
               <blockquote className="text-xl md:text-2xl text-white/95 leading-relaxed italic text-left">
-                "Minha missão é ser sua parceira na jornada para alcançar sua melhor versão. 
-                Acredito que cada pessoa tem potencial único, e meu papel é ajudá-la a descobrir 
-                e desenvolver esse potencial através de uma abordagem verdadeiramente integrativa."
+                "Minha missão é ser a profissional que te acompanha ao longo de todas as suas fases, lhe auxiliando a atingir seus objetivos de forma saudável e sustentada, através de uma abordagem focada em PERFORMANCE E RESULTADOS."
               </blockquote>
             </div>
             
@@ -66,7 +64,7 @@ const Missao = () => {
                 Dra. Priscilla Almeida
               </p>
               <p className="text-white/80 text-sm">
-                Medicina Integrativa & Longevidade
+                Saúde da Mulher – Estilo de Vida & Longevidade
               </p>
             </div>
           </motion.div>
@@ -84,8 +82,8 @@ const Missao = () => {
                 description: "Cada paciente é único e merece cuidado personalizado"
               },
               {
-                title: "Integração",
-                description: "Combinamos diferentes abordagens para resultados melhores"
+                title: "Personalização",
+                description: "Cada tratamento é adaptado para as necessidades individuais"
               },
               {
                 title: "Excelência",
